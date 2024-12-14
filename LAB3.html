@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab 3</title>
+        <link rel="stylesheet" href="./LAB3Style.CSS">
+        <style>
+            p>span {
+                color: yellow;
+            }
+
+            #header span {
+                color: red;
+            }
+
+            span {
+                color: green;
+            }
+
+            #header *:last-child {
+                color: purple;
+            }
+
+            #header span:first-child:hover {
+                color: blue;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="image-preview">
+            <img src='https://cpit405.gitlab.io/images/KAU_logo.png'>
+        </div>
+        
+        <div id="header">
+            <span class="1stClass">Every</span>
+            <span class="2ndClass">one can</span>
+            <span class="3rdClass">succeed.</span>
+          </div>
+          <p> One machine can do the work of 100 ordinary men.
+            <span class="myclass4">No machine can do the work of one a man like Saleh.</span>
+        </p>
+    
+        <table>
+            <thead>
+              <tr>
+                <th id="th1"></th>
+                <th>color</th>
+                <th>color when mouse over</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>span.myclass1</strong></td>
+                <td class="Pink">Pink</td>
+                <td class="Blue">Blue</td>
+              </tr>
+              <tr>
+                <td><strong>span.myclass2</strong></td>
+                <td class="Pink">Pink</td>
+                <td class="Pink">Pink</td>
+              </tr>
+              <tr>
+                <td><strong>span.myclass3</strong></td>
+                <td class="Orange">Orange</td>
+                <td class="Orange">Orange</td>
+              </tr>
+              <tr>
+                <td><strong>span.myclass4</strong></td>
+                <td class="Red">Red</td>
+                <td class="Red">Red</td>
+              </tr>
+            </tbody>
+          </table>
+    </body>
+</html>
